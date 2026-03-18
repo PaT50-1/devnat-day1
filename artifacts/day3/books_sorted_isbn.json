@@ -1,0 +1,51 @@
+{
+  "count": 8,
+  "items": [
+    {
+      "author": "Author3",
+      "id": 7,
+      "title": "Book3"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 2,
+      "isbn": "000-0000000123",
+      "title": "Linux for Networkers"
+    },
+    {
+      "author": "Cisco Systems Inc.",
+      "id": 3,
+      "isbn": "000-0000001123",
+      "title": "NetAcad: 20 Years Of Online-Learning"
+    },
+    {
+      "author": "Mark A. Sportack",
+      "id": 0,
+      "isbn": "978-1578700714",
+      "title": "IP Routing Fundamentals"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 5014,
+      "isbn": "978-14cc1a8214",
+      "title": "My DevNet Book cc1a8214"
+    },
+    {
+      "author": "Stef Maruch Aahz Maruch",
+      "id": 1,
+      "isbn": "978-0471778646",
+      "title": "Python for Dummies"
+    },
+    {
+      "author": "author1",
+      "id": 5,
+      "title": "book1"
+    },
+    {
+      "author": "author2",
+      "id": 6,
+      "title": "book2"
+    }
+  ],
+  "status_code": 200
+}

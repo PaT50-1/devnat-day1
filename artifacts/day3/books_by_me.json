@@ -1,0 +1,24 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "author": "Ostrovenko",
+      "id": 5014,
+      "isbn": "978-14cc1a8214",
+      "title": "My DevNet Book cc1a8214"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8800,
+      "isbn": "978-0-338-69138-5",
+      "title": "Self-enabling value-added structure [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8801,
+      "isbn": "978-0-9678973-3-2",
+      "title": "Reverse-engineered dedicated access [cc1a8214]"
+    }
+  ],
+  "status_code": 200
+}

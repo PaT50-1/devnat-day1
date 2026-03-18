@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "8f6a0f47444762e1eff9f818dbdea533bbc8f25c8ac1dc8d2ffc2814e39426dd",
+  "author_used": "Ostrovenko",
+  "count_requested": 100,
+  "generated_utc": "2026-03-18T16:08:56.531878+00:00",
+  "id_range": [
+    8800,
+    8899
+  ],
+  "sample_books": [
+    {
+      "author": "Ostrovenko",
+      "id": 8800,
+      "isbn": "978-0-338-69138-5",
+      "title": "Self-enabling value-added structure [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8801,
+      "isbn": "978-0-9678973-3-2",
+      "title": "Reverse-engineered dedicated access [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8802,
+      "isbn": "978-0-8421-2545-1",
+      "title": "Multi-tiered transitional budgetary management [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8803,
+      "isbn": "978-0-04-095974-2",
+      "title": "Networked heuristic firmware [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8804,
+      "isbn": "978-1-58307-943-0",
+      "title": "Visionary optimizing challenge [cc1a8214]"
+    }
+  ],
+  "tag": "cc1a8214"
+}

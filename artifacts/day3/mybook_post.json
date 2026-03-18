@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "8f6a0f47444762e1eff9f818dbdea533bbc8f25c8ac1dc8d2ffc2814e39426dd",
+  "request": {
+    "author": "Ostrovenko",
+    "id": 5014,
+    "isbn": "978-14cc1a8214",
+    "title": "My DevNet Book cc1a8214"
+  },
+  "response": {
+    "author": null,
+    "id": null,
+    "title": null
+  },
+  "status_code": 200
+}
