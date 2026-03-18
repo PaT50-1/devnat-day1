@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "641b4b39-cff1-4708-8d1f-818aecbcd767",
+		"name": "Day3-library-IB-23-5B-Ostrovenko",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "53302677",
+		"_collection_link": "https://pavel-ostrovenko-8349702.postman.co/workspace/%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB-%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE's-Workspace~b64eb681-f37c-4d94-8af0-cc6399cf022d/collection/53302677-641b4b39-cff1-4708-8d1f-818aecbcd767?action=share&source=collection_link&creator=53302677"
+	},
+	"item": [
+		{
+			"name": "http://library.demo.local/api/v1/books",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Cisco123!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cisco",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "cisco|clHtrRDLwY7OEBhnF6xSdUOnJmSRKcVSsKB9nF0th2U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 7,\n    \"title\": \"Book3\",\n    \"author\": \"Author3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://library.demo.local/api/v1/books",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://library.demo.local/api/v1/books",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library.demo.local/api/v1/books",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://library.demo.local/api/v1/loginViaBasic",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Cisco123!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "cisco",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://library.demo.local/api/v1/loginViaBasic",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"loginViaBasic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://library.demo.local/api/v1/books?includeISBN=true&sortBy=author&author=author1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://library.demo.local/api/v1/books?includeISBN=true&sortBy=author&author=author1",
+					"protocol": "http",
+					"host": [
+						"library",
+						"demo",
+						"local"
+					],
+					"path": [
+						"api",
+						"v1",
+						"books"
+					],
+					"query": [
+						{
+							"key": "includeISBN",
+							"value": "true"
+						},
+						{
+							"key": "sortBy",
+							"value": "author"
+						},
+						{
+							"key": "author",
+							"value": "author1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
