@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "items": [
     {
       "author": "Author3",
@@ -29,6 +29,18 @@
       "id": 5014,
       "isbn": "978-14cc1a8214",
       "title": "My DevNet Book cc1a8214"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8800,
+      "isbn": "978-0-487-38455-8",
+      "title": "Realigned upward-trending capability [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8801,
+      "isbn": "978-0-406-81340-4",
+      "title": "Fundamental methodical strategy [cc1a8214]"
     },
     {
       "author": "Stef Maruch Aahz Maruch",

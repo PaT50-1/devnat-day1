@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "items": [
     {
       "author": "Mark A. Sportack",
@@ -40,6 +40,16 @@
       "author": "Ostrovenko",
       "id": 5014,
       "title": "My DevNet Book cc1a8214"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8800,
+      "title": "Realigned upward-trending capability [cc1a8214]"
+    },
+    {
+      "author": "Ostrovenko",
+      "id": 8801,
+      "title": "Fundamental methodical strategy [cc1a8214]"
     }
   ],
   "status_code": 200

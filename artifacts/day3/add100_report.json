@@ -1,10 +1,10 @@
 {
   "added_fail": 0,
   "added_ok": 100,
-  "api_key_sha256": "8f6a0f47444762e1eff9f818dbdea533bbc8f25c8ac1dc8d2ffc2814e39426dd",
+  "api_key_sha256": "e337eddad03a666d7123e0c62322538b7e346ee3f0a770ed4eeb2f7babcda516",
   "author_used": "Ostrovenko",
   "count_requested": 100,
-  "generated_utc": "2026-03-18T16:08:56.531878+00:00",
+  "generated_utc": "2026-03-18T16:43:26.014105+00:00",
   "id_range": [
     8800,
     8899
@@ -13,32 +13,32 @@
     {
       "author": "Ostrovenko",
       "id": 8800,
-      "isbn": "978-0-338-69138-5",
-      "title": "Self-enabling value-added structure [cc1a8214]"
+      "isbn": "978-1-301-86088-3",
+      "title": "Total multimedia matrix [cc1a8214]"
     },
     {
       "author": "Ostrovenko",
       "id": 8801,
-      "isbn": "978-0-9678973-3-2",
-      "title": "Reverse-engineered dedicated access [cc1a8214]"
+      "isbn": "978-1-71505-032-0",
+      "title": "Multi-tiered empowering software [cc1a8214]"
     },
     {
       "author": "Ostrovenko",
       "id": 8802,
-      "isbn": "978-0-8421-2545-1",
-      "title": "Multi-tiered transitional budgetary management [cc1a8214]"
+      "isbn": "978-0-448-00623-9",
+      "title": "Switchable high-level workforce [cc1a8214]"
     },
     {
       "author": "Ostrovenko",
       "id": 8803,
-      "isbn": "978-0-04-095974-2",
-      "title": "Networked heuristic firmware [cc1a8214]"
+      "isbn": "978-1-900701-01-3",
+      "title": "Streamlined optimizing orchestration [cc1a8214]"
     },
     {
       "author": "Ostrovenko",
       "id": 8804,
-      "isbn": "978-1-58307-943-0",
-      "title": "Visionary optimizing challenge [cc1a8214]"
+      "isbn": "978-1-75993-084-8",
+      "title": "Focused 24hour strategy [cc1a8214]"
     }
   ],
   "tag": "cc1a8214"
