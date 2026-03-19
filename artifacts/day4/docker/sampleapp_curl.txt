@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>Sample app</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <h1>You are calling me from 127.0.0.1</h1>
+    <p>TOKEN_HASH8=D1-IB-23-5b-14-D3B8</p>
+</body>
+</html>
