@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "ansible_port_8081": true,
+    "docker_token_in_page": false,
+    "docker_tokenproof": false,
+    "jenkins_pipeline_has_stages": false,
+    "security_db_has_tables": true
+  },
+  "evidence_sha256": {
+    "ansible_hello": "6b506fcd95eb0febede6e36542f9524299ecd459f7b11b6743bef44138cbb0fb",
+    "ansible_ping": "005e9245df2c530d64aee6bfec751dfc3ced4b06361f597e7fde4163bc44fd69",
+    "ansible_playbook_install": "4812a9fd7cfc73faab5fc370a200aca57e9554e13dcc64e09be2b28d2b922a25",
+    "buildapp_console": "",
+    "curl_apache_8081": "a9a7989c97b2813c1fc0f00f368605a12a9835cffeb65f63b30ec1b4f69048b8",
+    "db_tables": "5a5db0577f7de3dda0dfbe3e2437f3761ffabf34af83bfd94e0d5423193ce3dd",
+    "db_user_hash_sample": "dd4bddd2bd8b4d0d45edfeeef75b54c6a95a6c84732b9311e4e8cd2eb38df05e",
+    "docker_build_log": "",
+    "docker_ps": "59cb64fc2f445c6be0f4a82ed9446ae8770695faf4702efdce56f8f086614163",
+    "docker_sampleapp_curl": "04b31e9814b0c89b5d85bf790ab8e3ea591d84ffb6403758b6220e0e3c08a0ca",
+    "docker_token_proof": "c8f4668f293859baeb493504141d536368176c88abbef2fa7dae89e9f45b4987",
+    "jenkins_docker_ps": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "jenkins_url": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "login_v1": "fc6d9fe5f04505908614c216b173081e1149efca83ed3e54821e75b5312658ae",
+    "login_v2": "b03423d1857be7c9488d82fd7a56b3028ba002eef71f253a8efff149c1f23bab",
+    "pipeline_console": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pipeline_script": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ports_conf_after": "8ee0ac8272eaa90ca6a9597cb472034768331e543d074cc72141b520ffb6f686",
+    "signup_v1": "11e553d68742d167ff0e6d1c9a04b7210c80f09fe1cc4c52e0019e2493b59bfa",
+    "signup_v2": "512d2686aabb177a885aece270166e8fe20da75f6cd1c198a09debeffccb65bb",
+    "testapp_console": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "generated_utc": "2026-03-20T12:55:54.372212+00:00",
+  "run": {
+    "platform": "linux",
+    "python": "3.8.2"
+  },
+  "schema_version": "4.1",
+  "student": {
+    "group": "IB-23-5B",
+    "name": "Ostrovenko",
+    "token": "D1-IB-23-5b-14-D3B8",
+    "token_hash8": "cc1a8214"
+  },
+  "validation_passed": false
+}
