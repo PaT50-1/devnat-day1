@@ -1,0 +1,38 @@
+{
+    "schema_version": "5.0",
+    "student": {
+        "token": "D1-IB-23-5b-14-D3B8",
+        "token_hash8": "cc1a8214",
+        "name": "Pavel",
+        "group": "IB-23-5B"
+    },
+    "yang": {
+        "ok": true,
+        "evidence_sha": "949de5d3ee156508fe0af9f6a93bb6b16cf3e397ba9f6ba226e1c50bb5256edb"
+    },
+    "webex": {
+        "ok": true,
+        "room_title_contains_hash8": true,
+        "room_title": "DevNet Lab cc1a8214",
+        "evidence_sha": "7592f6a08d1032e586174106029a13030da24e9ee6ec640f80dc88ca637cd300"
+    },
+    "pt": {
+        "ok": true,
+        "empty_ticket_seen": true,
+        "network_devices_ok": true,
+        "hosts_ok": true,
+        "evidence_sha": "d2a34259797ded7a3f7dfd8a06ef4a5a118c3674ab5235e4e6839cfeffba1ce9"
+    },
+    "bonus": {
+        "optional_ok": false,
+        "evidence_sha": ""
+    },
+    "validation_passed": true,
+    "checks": {
+        "yang_tree_has_interfaces": true,
+        "webex_room_title_contains_hash8": true,
+        "pt_empty_ticket_seen": true,
+        "pt_network_devices_ok": true,
+        "pt_hosts_ok": true
+    }
+}

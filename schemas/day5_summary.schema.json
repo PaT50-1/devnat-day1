@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["schema_version", "student", "yang", "webex", "pt", "validation_passed", "checks"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "5.0" },
+    "student": {
+      "type": "object",
+      "required": ["token", "token_hash8", "name", "group"],
+      "properties": {
+        "token":      { "type": "string", "minLength": 1 },
+        "token_hash8":{ "type": "string", "minLength": 8 },
+        "name":       { "type": "string" },
+        "group":      { "type": "string" }
+      }
+    },
+    "yang": {
+      "type": "object",
+      "required": ["ok", "evidence_sha"],
+      "properties": {
+        "ok":          { "type": "boolean" },
+        "evidence_sha":{ "type": "string" }
+      }
+    },
+    "webex": {
+      "type": "object",
+      "required": ["ok", "room_title_contains_hash8", "evidence_sha"],
+      "properties": {
+        "ok":                       { "type": "boolean" },
+        "room_title_contains_hash8":{ "type": "boolean" },
+        "room_title":               { "type": "string" },
+        "evidence_sha":             { "type": "string" }
+      }
+    },
+    "pt": {
+      "type": "object",
+      "required": ["ok", "empty_ticket_seen", "evidence_sha"],
+      "properties": {
+        "ok":               { "type": "boolean" },
+        "empty_ticket_seen":{ "type": "boolean" },
+        "network_devices_ok":{ "type": "boolean" },
+        "hosts_ok":         { "type": "boolean" },
+        "evidence_sha":     { "type": "string" }
+      }
+    },
+    "bonus": {
+      "type": "object",
+      "properties": {
+        "optional_ok":  { "type": "boolean" },
+        "evidence_sha": { "type": "string" }
+      }
+    },
+    "validation_passed": { "type": "boolean" },
+    "checks": {
+      "type": "object",
+      "required": [
+        "yang_tree_has_interfaces",
+        "webex_room_title_contains_hash8",
+        "pt_empty_ticket_seen",
+        "pt_network_devices_ok",
+        "pt_hosts_ok"
+      ],
+      "properties": {
+        "yang_tree_has_interfaces":         { "type": "boolean" },
+        "webex_room_title_contains_hash8":  { "type": "boolean" },
+        "pt_empty_ticket_seen":             { "type": "boolean" },
+        "pt_network_devices_ok":            { "type": "boolean" },
+        "pt_hosts_ok":                      { "type": "boolean" }
+      }
+    }
+  }
+}
